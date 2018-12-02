@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <h1>Type Here</h1>
+        <p>Enter the string:<input type="text" id="sub" />
+            <input type="submit" value="submit"  onclick="decide();"/>
+        </p>
+        
+    </head>
+    <body>
+        <script>
+            function decide()
+            {
+                var str = document.getElementById("sub").value;
+                if(!isNaN(str))
+                    {
+                             ifno(str);                         
+                
+
+                    }
+                else
+                    {
+                       
+                        ifstr(str);
+                    }
+            }
+            function ifno(str)
+            {
+                var num=0,remainder,rev=0;
+                num=parseInt(str);
+                while(num!=0)
+                    {
+                        remainder=num%10;
+                        rev=rev*10+remainder;
+                        num=parseInt(num/10);
+                        
+                    }
+                alert("The reverse of num is:"+rev);
+            }
+            function ifstr(str)
+            {
+                str=str.toUpperCase();
+                for (var i=0;i<str.length;i++)
+                    {
+                        chr=str.charAt(i);
+                        if(chr=="A" ||chr=="E"||chr=="I"||chr=="O"||chr=="U" )
+                            break;
+                        else
+                            {
+                                alert("No vowels");
+                            }
+                        
+                    }
+                alert("Position of "+str+"in vow"+(i+1));
+                
+            }
+        </script>
+    </body>
+</html>

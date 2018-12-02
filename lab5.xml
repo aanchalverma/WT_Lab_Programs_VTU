@@ -1,0 +1,37 @@
+<?xml-stylesheet type="text/css" href="lab5.css"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<h1> STUDENTS DESCRIPTION </h1>
+</head>
+<students>
+<student>
+<USN>USN	 :	1BI15CS033</USN>
+<name>NAME	 :	Ayush</name>
+<college>college :	BIT</college>
+<branch>BRANCH	 :	CSE</branch>
+<year>YEAR	 :	2015</year>
+<e-mail>E-MAIL	 :	ayushgupta@gmail.com</e-mail>
+</student>
+
+<student>
+<USN>USN	 :	1BI15CS017</USN>
+<name>NAME	 :	Animesh</name>
+<college>college :	BIT</college>
+<branch>BRANCH	 :	CSE</branch>
+<year>YEAR	 :	2015</year>
+<e-mail>E-MAIL	 :	animeshananmay@gmail.com</e-mail>
+</student>
+
+<student>
+<USN>USN	 :	1BI15CS025</USN>
+<name>NAME	 :	Anshu</name>
+<college>college :	BIT</college>
+<branch>BRANCH	 :	CSE</branch>
+<year>YEAR	 :	2015</year>
+<e-mail>E-MAIL	 :	anshupriya@gmail.com</e-mail>
+</student>
+
+</students>
+
+</html>
